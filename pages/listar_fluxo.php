@@ -33,7 +33,7 @@
                     echo "<td>".$row['data']."</td>";
                     echo "<td>".$row['tipo']."</td>";
                     echo "<td>".$row['valor']."</td>";
-                    echo "<td>a href='altera_agenda.php?id_agenda=" 
+                    echo "<td><a href='altera_fluxo.php?id=" 
                     .$row['id']."'>".$row['historico']."</a></td>";
                     echo "<td>".$row['cheque']."</td>";
                     echo "<td><a href='excluir_fluxo.php?id=" 
