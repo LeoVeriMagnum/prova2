@@ -43,7 +43,8 @@
                     
              } while ($row = mysqli_fetch_array($result))
         ?>
+        <th colspan="7"><a href="../index.php">Voltar</a></th>
     </table>
-    <a href="../index.php"><button>Tela Inicial</button></a>
+    
 </body>
 </html>
